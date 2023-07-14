@@ -4,39 +4,128 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Login and Register</title>
-        <link rel="stylesheet" href="login.css" />
     </head>
-    <body>
-        <h1>Login</h1>
-        <form id="loginForm">
-            <label for="loginEmail">Name:</label>
-            <input type="text" id="loginName" name="loginEmail" required />
-            <label for="loginPassword">Password:</label>
+    <body
+        style="
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #222;
+            color: #fff;
+        "
+    >
+        <h1 style="margin-top: 2rem">Login</h1>
+        <form id="loginForm" style="margin: 2rem auto; max-width: 300px">
+            <label
+                for="loginEmail"
+                style="display: block; margin-bottom: 0.5rem"
+                >Name:</label
+            >
+            <input
+                type="text"
+                id="loginName"
+                name="loginEmail"
+                required
+                style="
+                    width: 100%;
+                    padding: 0.5rem;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    margin-bottom: 1rem;
+                    background-color: #333;
+                    color: #fff;
+                "
+            />
+            <label
+                for="loginPassword"
+                style="display: block; margin-bottom: 0.5rem"
+                >Password:</label
+            >
             <input
                 type="password"
                 id="loginPassword"
                 name="loginPassword"
                 required
+                style="
+                    width: 100%;
+                    padding: 0.5rem;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    margin-bottom: 1rem;
+                    background-color: #333;
+                    color: #fff;
+                "
             />
-            <input style="margin-top: 1rem;" type="submit" value="Login" />
+            <input
+                type="submit"
+                value="Login"
+                style="
+                    width: 100%;
+                    padding: 0.5rem;
+                    background-color: #4caf50;
+                    color: #fff;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                "
+            />
         </form>
 
-        <h1>Register</h1>
-        <form id="registerForm">
-            <label for="registerName">Name:</label>
-            <input type="text" id="registerName" name="registerName" required />
-
-            <label for="registerPassword">Password:</label>
+        <h1 style="margin-top: 2rem">Register</h1>
+        <form id="registerForm" style="margin: 2rem auto; max-width: 300px">
+            <label
+                for="registerName"
+                style="display: block; margin-bottom: 0.5rem"
+                >Name:</label
+            >
+            <input
+                type="text"
+                id="registerName"
+                name="registerName"
+                required
+                style="
+                    width: 100%;
+                    padding: 0.5rem;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    margin-bottom: 1rem;
+                    background-color: #333;
+                    color: #fff;
+                "
+            />
+            <label
+                for="registerPassword"
+                style="display: block; margin-bottom: 0.5rem"
+                >Password:</label
+            >
             <input
                 type="password"
                 id="registerPassword"
                 name="registerPassword"
                 required
+                style="
+                    width: 100%;
+                    padding: 0.5rem;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    margin-bottom: 1rem;
+                    background-color: #333;
+                    color: #fff;
+                "
             />
-
-            <input style="margin-top: 1rem;" type="submit" value="Register" />
+            <input
+                type="submit"
+                value="Register"
+                style="
+                    width: 100%;
+                    padding: 0.5rem;
+                    background-color: #337ab7;
+                    color: #fff;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                "
+            />
         </form>
-
         <script src="login.js"></script>
     </body>
 </html>

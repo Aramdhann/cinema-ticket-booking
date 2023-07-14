@@ -1,7 +1,8 @@
 const movieContainer = document.getElementById("movie-container");
 const accountName = localStorage.getItem("username");
 
-document.getElementById("account-name").innerText = "Hi ! " + accountName;
+document.getElementById("account-name").innerText =
+    "Hi! " + accountName + " Selamat Menonton!";
 
 fetch("https://seleksi-sea-2023.vercel.app/api/movies")
     .then((response) => response.json())
@@ -21,7 +22,7 @@ fetch("https://seleksi-sea-2023.vercel.app/api/movies")
     <p class="movie-age-rating">Age Rating: ${movieDetails.age_rating}</p>
     <p class="movie-release-date">Release Date: ${movieDetails.release_date}</p>
     <p class="movie-ticket-price">Ticket Price: ${movieDetails.ticket_price}</p>
-    <button class="selectSeat" onclick="handleBuyTicket('movieTitle')">Select Seat</button>
+    <button style="width: 100%; padding: 0.5rem; background-color: #337ab7; color: #fff; border: none; border-radius: 4px; cursor: pointer;" class="selectSeat" onclick="handleBuyTicket('movieTitle')">Select Seat</button>
   </div>
 </div>
       `;
