@@ -2,6 +2,8 @@
 
 Sea Cinema is a movie ticket booking application that allows users to browse and book movie tickets conveniently. With its intuitive interface and seamless functionality, Sea Cinema provides a hassle-free movie ticket booking experience.
 
+this is my deploy link = https://cinema-ticket-booking-coral.vercel.app/
+
 ## Features
 
 Sea Cinema offers the following key features:
@@ -23,9 +25,9 @@ To get started with Sea Cinema, follow these steps:
 
 Sea Cinema is built using the following technologies:
 
-- Frontend:HTML5, CSS3
-- Backend: Javascript
-- Database: Local
+-   Frontend:HTML5, CSS3
+-   Backend: Javascript
+-   Database: Local
 
 ## Contributing
 
